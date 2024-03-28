@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Intelectah")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fd534c3d9934e4907640fddbe8c740644ac1bf2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Intelectah")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Intelectah")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

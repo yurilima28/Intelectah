@@ -1,4 +1,5 @@
 Desenvolver uma pequena aplicação utilizando Asp.net MVC com as seguintes funcionalidades:
+
     1. Cadastro de Paciente (CRUD) onde a entidade deve conter as seguintes informações:
         ◦ Nome - Não pode ter mais que 100 caracteres
         ◦ CPF - Validar se CPF válido e se já existe CPF cadastrado na base para outro paciente

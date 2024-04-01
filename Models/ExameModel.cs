@@ -7,10 +7,15 @@ namespace Intelectah.Models
     {
         public int Id { get; set; }
 
-        [ForeignKey("TipoExame")]
-        public int TipoExameId { get; set; }
+        [Required(ErrorMessage ="Informe o nome do exame ")]
+        [MaxLength(100)]
+        public string NomeExame { get; set; }
 
-        [Required(ErrorMessage ="Informe ")]
+        [MaxLength(1000)]
+        public string Observacoes { get; set; }
+
+        [ForeignKey("TipoExame")]
+        public int tipoExameId {  get; set; }
         
     }
 }

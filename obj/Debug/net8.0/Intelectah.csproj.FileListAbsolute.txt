@@ -1,0 +1,9 @@
+C:\Users\yurin\OneDrive\Documentos\Teste-Intelectah\Intelectah\obj\Debug\net8.0\Intelectah.csproj.AssemblyReference.cache
+C:\Users\yurin\OneDrive\Documentos\Teste-Intelectah\Intelectah\obj\Debug\net8.0\Intelectah.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yurin\OneDrive\Documentos\Teste-Intelectah\Intelectah\obj\Debug\net8.0\Intelectah.AssemblyInfoInputs.cache
+C:\Users\yurin\OneDrive\Documentos\Teste-Intelectah\Intelectah\obj\Debug\net8.0\Intelectah.AssemblyInfo.cs
+C:\Users\yurin\OneDrive\Documentos\Teste-Intelectah\Intelectah\obj\Debug\net8.0\Intelectah.csproj.CoreCompileInputs.cache
+C:\Users\yurin\OneDrive\Documentos\Teste-Intelectah\Intelectah\obj\Debug\net8.0\Intelectah.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yurin\OneDrive\Documentos\Teste-Intelectah\Intelectah\obj\Debug\net8.0\Intelectah.RazorAssemblyInfo.cache
+C:\Users\yurin\OneDrive\Documentos\Teste-Intelectah\Intelectah\obj\Debug\net8.0\Intelectah.RazorAssemblyInfo.cs
+C:\Users\yurin\OneDrive\Documentos\Teste-Intelectah\Intelectah\obj\Debug\net8.0\Intelectah.sourcelink.json

@@ -6,9 +6,9 @@ namespace Intelectah.Models
     {
        public int Id { get; set; }
 
-        [Required(ErrorMessage ="Nome do tipo de exame é obrigatório")]
+        [Required(ErrorMessage ="Infome o tipo de exame")]
         [MaxLength(100)]
-        public string Name { get; set; }
+        public string TipoExame { get; set; }
 
         [MaxLength(256)]
         public string Descricao { get; set; }   

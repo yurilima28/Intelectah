@@ -35,7 +35,7 @@ namespace Intelectah.Models
         public bool IsCpfUnique(BancoContext context)
 
         {
-            return !context.Paciente.Any(p => p.Id !=this.Id && p.CPF == this.CPF);
+            return !context.Pacientes.Any(p => p.Id !=this.Id && p.CPF == this.CPF);
         }
 
     }

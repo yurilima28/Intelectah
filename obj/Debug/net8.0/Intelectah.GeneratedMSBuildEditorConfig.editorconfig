@@ -18,6 +18,46 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\yurin\OneDrive\Documentos\Teste-Intelectah\Intelectah
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/Consulta/Consulta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFcQ29uc3VsdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/Consulta/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFcQ3JpYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/Consulta/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/Consulta/Forms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFcRm9ybXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/Consulta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/Exame/ApagarConfirmacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbWVcQXBhZ2FyQ29uZmlybWFjYW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/Exame/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbWVcQ3JpYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/Exame/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbWVcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/Exame/Forms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbWVcRm9ybXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/Exame/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,8 +70,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcQXBhZ2FyQ29uZmlybWFjYW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/Paciente/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcQ3JpYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/Paciente/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/Paciente/Forms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcRm9ybXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/Paciente/Index.cshtml]
@@ -44,6 +92,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/TipoExame/ApagarConfirmacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0V4YW1lXEFwYWdhckNvbmZpcm1hY2FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/TipoExame/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0V4YW1lXENyaWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/TipoExame/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0V4YW1lXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/TipoExame/Forms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0V4YW1lXEZvcm1zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/TipoExame/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0V4YW1lXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/yurin/OneDrive/Documentos/Teste-Intelectah/Intelectah/Views/_ViewImports.cshtml]

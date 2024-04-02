@@ -31,6 +31,12 @@ namespace Intelectah.Repository
                 throw;
             }
         }
+        public List<ConsultaModel> BuscarPorPacienteId(int pacienteId)
+        {
+            return _bancoContext.Consulta
+                .Where(c => c.PacienteId == pacienteId)
+                .ToList();
+        }
 
         public ConsultaModel Adicionar (ConsultaModel consulta)
         {
@@ -59,8 +65,8 @@ namespace Intelectah.Repository
             ConsultaModel consultaDB = ListarPorId(consulta.Id);
             if(consultaDB == null) throw new Exception("Houve um erro ao atualizar a consulta");
 
-            consultaDB.Exame = consulta.Exame;
-            consultaDB.Paciente = consulta.Paciente;
+            consultaDB.ExameId = consulta.ExameId;
+            consultaDB.PacienteId = consulta.PacienteId;
             consultaDB.DataHora = consulta.DataHora;
             consulta.Protocolo = consulta.Protocolo;
 
@@ -77,7 +83,7 @@ namespace Intelectah.Repository
             {
                 return (_bancoContext.Consulta.Any(c => 
                 c.DataHora == novaConsulta.DataHora
-                && c.Exame == novaConsulta.Exame
+                && c.ExameId == novaConsulta.ExameId
                 && c.Id != novaConsulta.Id));
 
             }

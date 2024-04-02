@@ -15,7 +15,7 @@ namespace Intelectah.Models
         public string Observacoes { get; set; }
 
         [ForeignKey("TipoExame")]
-        public int tipoExameId {  get; set; }
+        public int TipoExameId {  get; set; }
         
     }
 }

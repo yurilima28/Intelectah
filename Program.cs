@@ -3,15 +3,18 @@ using Intelectah.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<BancoContext>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-});
+
+builder.Services.AddDbContext<BancoContext>(o=>o.UseSqlServer(connectionString));
+
 
 builder.Services.AddScoped<IPacienteRepository, PacienteRepository>();
+builder.Services.AddScoped<ITipoExameRepository, TipoExameRepository>();
+builder.Services.AddScoped<IExameRepository, ExameRepository>();
+builder.Services.AddScoped<IConsultaRepository, ConsultaRepository>();
+
 
 
 

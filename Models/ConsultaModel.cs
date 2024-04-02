@@ -13,14 +13,16 @@ namespace Intelectah.Models
 
 
         [ForeignKey("Exame")]
-        public int Exame { get; set; }
+        public int ExameId { get; set; }
 
         [ForeignKey("Paciente")]
-        public int Paciente { get; set; }
+        public int PacienteId { get; set; }
 
         [ForeignKey("TipoExame")]
-        public int TipoExame { get; set; }
+        public int TipoExameId { get; set; }
 
         public string Protocolo { get; set; }
+
+
     }
 }

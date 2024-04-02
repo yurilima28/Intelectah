@@ -21,7 +21,7 @@ namespace Intelectah.Repository
         }
         public List<ExameModel>BuscarPorTipoExame(int tipoExameId)
         {
-            return _bancoContext.Exames.Where(e => e.tipoExameId == tipoExameId).ToList();
+            return _bancoContext.Exames.Where(e => e.TipoExameId == tipoExameId).ToList();
         }
         public List<ExameModel> BuscarPorNome(string nome)
         {
@@ -40,7 +40,7 @@ namespace Intelectah.Repository
             ExameModel exameDB = ListarPorId(exame.Id);
             if(exameDB == null) throw new Exception("Houve um erro na atualização do exame");
 
-            exameDB.tipoExameId = exame.tipoExameId;
+            exameDB.TipoExameId = exame.TipoExameId;
             exameDB.NomeExame = exame.NomeExame;
             exameDB.Observacoes = exame.Observacoes;
 

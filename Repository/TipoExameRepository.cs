@@ -34,7 +34,7 @@ namespace Intelectah.Repository
             TipoExameModel tipoExameDB = ListarPorId(tipoExame.Id);
             if (tipoExameDB == null) throw new Exception("Houve um erro na atualização do exame");
 
-            tipoExameDB.TipoExame = tipoExame.TipoExame;
+            tipoExameDB.Nome = tipoExame.Nome;
             tipoExameDB.Descricao = tipoExame.Descricao;
 
             _bancoContext.TipoExames.Update(tipoExameDB);

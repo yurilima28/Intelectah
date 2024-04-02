@@ -6,6 +6,7 @@ namespace Intelectah.Repository
     {
         ConsultaModel ListarPorId(int id);
         List <ConsultaModel> BuscarTodos();
+        List<ConsultaModel> BuscarPorPacienteId(int pacienteId);    
 
         ConsultaModel Adicionar(ConsultaModel consulta);
         ConsultaModel Atualizar(ConsultaModel consulta);

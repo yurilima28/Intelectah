@@ -1,6 +1,7 @@
 ﻿using Intelectah.Models;
 using Intelectah.Repository;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace Intelectah.Controllers
 {
@@ -30,5 +31,72 @@ namespace Intelectah.Controllers
             PacienteModel paciente = _pacienteRepository.ListarPorId(id);
             return View(paciente);
         }
+
+        public IActionResult Apagar(int id)
+        {
+            try
+            {
+                bool apagado = _pacienteRepository.Apagar(id);
+                if(apagado)
+                {
+                    TempData["MensagemSucesso"] = "Paciente apagado com sucesso!";
+                }
+                else
+                {
+                    TempData["MensagemErro"] = "Não conseguimos apagar o paciente";
+                }
+                return RedirectToAction("Index");
+            }
+            catch(Exception erro) 
+            {
+                TempData["MensagemErro"] = $"Não conseguimos apagar o paciente, detalhes do erro {erro.Message}";
+                return RedirectToAction("Index");
+
+            }
+        }
+        [HttpPost]
+        public IActionResult Criar(PacienteModel paciente)
+        {
+            try
+            {
+                if (!_pacienteRepository.CPFUnico(paciente.CPF))
+                {
+                    ModelState.AddModelError("CPF" ,"já está cadastrado.");
+                }
+                if (ModelState.IsValid)
+                {
+                    _pacienteRepository.Adicionar(paciente);
+                    TempData["MensagemSucesso"] = "Paciente cadastrado com sucesso";
+                    return RedirectToAction("Index");
+                }
+                return View(paciente);
+            }
+            catch (Exception erro)
+            {
+                TempData["MensagemErro"] = $"Paciente não cadastrado, tente novamente. Detalhe do erro: {erro.Message}";
+                return RedirectToAction("Index");
+            }
+        }
+            [HttpPost]
+            public IActionResult Alterar(PacienteModel paciente)
+            {
+                try
+                {
+                if(ModelState.IsValid)
+                {
+                    _pacienteRepository.Atualizar(paciente);
+                    TempData["MensagemSucesso"] = "Paciente alterado com sucesso";
+                    return RedirectToAction("Index");
+                }
+                return View("Editar", paciente);
+
+                }
+                catch (Exception erro)
+                { 
+                    TempData["MensagemErro"] = $"Não conseguimos atualizar os dados do paciente, tente novamente. Detalhe do erro: {erro.Message}";
+                    return RedirectToAction("Index");
+                }   
+            }
+        
     }
 }

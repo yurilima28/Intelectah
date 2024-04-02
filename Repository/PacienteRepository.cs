@@ -27,6 +27,11 @@ namespace Intelectah.Repository
         {
             return _bancoContext.Pacientes.FirstOrDefault(x => x.Id == id);
         }
+        public PacienteModel BuscarPorId(int id)
+        {
+            return _bancoContext.Pacientes.FirstOrDefault(p => p.Id == id);
+        }
+
         public List<PacienteModel> BuscarPorNomeCpf(string filtro)
         {
             try

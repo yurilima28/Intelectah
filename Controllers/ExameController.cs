@@ -18,7 +18,7 @@ namespace Intelectah.Controllers
         }
 
         [HttpPost]
-        [Route("api/meucontroller/minhafuncao")]
+        [Route("/api/meucontroller/minhafuncao")]
         public JsonResult BuscarPorTipoExames(int tipoExameId)
         {
             List<ExameModel> exame = _exameRepository.BuscarPorTipoExame(tipoExameId);
